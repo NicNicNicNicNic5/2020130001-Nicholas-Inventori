@@ -9,6 +9,7 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 /**
@@ -17,10 +18,16 @@ import javafx.scene.control.Label;
  */
 public class FXMLDocumentController implements Initializable {
     
-    @FXML
     private Label label;
-    
     @FXML
+    private Button ButtonCharacter;
+    @FXML
+    private Button ButtonEquip;
+    @FXML
+    private Button ButtonInventory;
+    @FXML
+    private Button ButtonQuit;
+    
     private void handleButtonAction(ActionEvent event) {
         System.out.println("You clicked me!");
         label.setText("Hello World!");
@@ -30,5 +37,22 @@ public class FXMLDocumentController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void CharacterKlik(ActionEvent event) {
+    }
+
+    @FXML
+    private void EquipKlik(ActionEvent event) {
+    }
+
+    @FXML
+    private void InventoryKlik(ActionEvent event) {
+    }
+
+    @FXML
+    private void QuitKlik(ActionEvent event) {
+        System.exit(0);
+    }
     
 }
