@@ -64,7 +64,7 @@ public class FXML_DataController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-        
+        showData();
     }    
 
     public void showData() {
@@ -72,14 +72,14 @@ public class FXML_DataController implements Initializable {
         if (data != null) {
             TableData.getColumns().clear();
             TableData.getItems().clear();
-            TableColumn col = new TableColumn("Player_ID");
-            col.setCellValueFactory(new PropertyValueFactory<Player_Status_Model, String>("Player_ID"));
+            TableColumn col = new TableColumn("Player_ID"); //nama kolom
+            col.setCellValueFactory(new PropertyValueFactory<Player_Status_Model, String>("Playerid")); //nama yg di model
             TableData.getColumns().addAll(col);
             col = new TableColumn("Plyaer_Equip_ID");
-            col.setCellValueFactory(new PropertyValueFactory<Player_Status_Model, String>("Player_Equip_ID"));
+            col.setCellValueFactory(new PropertyValueFactory<Player_Status_Model, String>("Playerequipid"));
             TableData.getColumns().addAll(col);
             col = new TableColumn("Name");
-            col.setCellValueFactory(new PropertyValueFactory<Player_Status_Model, String>("Name"));
+            col.setCellValueFactory(new PropertyValueFactory<Player_Status_Model, String>("nama"));
             TableData.getColumns().addAll(col);
             col = new TableColumn("Strength");
             col.setCellValueFactory(new PropertyValueFactory<Player_Status_Model, String>("Strength"));

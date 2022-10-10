@@ -111,7 +111,7 @@ public class DB_Inventory {
         try {
             con.bukaKoneksi();
             con.preparedStatement = con.dbKoneksi.prepareStatement(
-                    "update inventory set Possession = ?, Place = ?  where  Inventory_ID = ? and Equipment_ID; ");
+                    "update inventory set Possession = ?, Place = ?  where  Inventory_ID = ? and Equipment_ID = ?; ");
             con.preparedStatement.setInt(1, getInventory_Model().getPossession());
             con.preparedStatement.setInt(2, getInventory_Model().getPlace());
             con.preparedStatement.setString(3, getInventory_Model().getInventoryid());

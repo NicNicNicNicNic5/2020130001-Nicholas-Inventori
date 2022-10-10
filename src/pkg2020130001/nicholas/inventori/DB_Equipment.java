@@ -62,7 +62,7 @@ public class DB_Equipment {
             koneksi con = new koneksi();
             con.bukaKoneksi();
             con.statement = con.dbKoneksi.createStatement();
-            ResultSet rs = con.statement.executeQuery("select count(*) as jml from s where equipment Equipment_ID = '" + nomor + "'");
+            ResultSet rs = con.statement.executeQuery("select count(*) as jml from equipment where Equipment_ID = '" + nomor + "'");
             while (rs.next()) {
                 val = rs.getInt("jml");
             }

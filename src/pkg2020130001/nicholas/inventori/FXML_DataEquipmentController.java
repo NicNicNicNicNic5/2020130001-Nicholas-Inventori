@@ -64,6 +64,7 @@ public class FXML_DataEquipmentController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
+        showData();
     }    
     
     public void showData() {
@@ -72,10 +73,10 @@ public class FXML_DataEquipmentController implements Initializable {
             TableData.getColumns().clear();
             TableData.getItems().clear();
             TableColumn col = new TableColumn("Equipment_ID");
-            col.setCellValueFactory(new PropertyValueFactory<Equipment_Model, String>("Equipment_ID"));
+            col.setCellValueFactory(new PropertyValueFactory<Equipment_Model, String>("equipmentid"));
             TableData.getColumns().addAll(col);
             col = new TableColumn("Inventory_ID");
-            col.setCellValueFactory(new PropertyValueFactory<Equipment_Model, String>("Inventory_ID"));
+            col.setCellValueFactory(new PropertyValueFactory<Equipment_Model, String>("inventoryid"));
             TableData.getColumns().addAll(col);
             col = new TableColumn("Name");
             col.setCellValueFactory(new PropertyValueFactory<Equipment_Model, String>("Name"));

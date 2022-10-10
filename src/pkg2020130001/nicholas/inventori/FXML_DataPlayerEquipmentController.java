@@ -64,6 +64,7 @@ public class FXML_DataPlayerEquipmentController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
+        showData();
     }    
     
     public void showData() {
@@ -72,25 +73,25 @@ public class FXML_DataPlayerEquipmentController implements Initializable {
             TableData.getColumns().clear();
             TableData.getItems().clear();
             TableColumn col = new TableColumn("Player_Equip_ID");
-            col.setCellValueFactory(new PropertyValueFactory<Player_Equipment_Model, String>("Player_Equip_ID"));
+            col.setCellValueFactory(new PropertyValueFactory<Player_Equipment_Model, String>("playerequipid"));
             TableData.getColumns().addAll(col);
             col = new TableColumn("Inventory_ID");
-            col.setCellValueFactory(new PropertyValueFactory<Player_Equipment_Model, String>("Inventory_ID"));
+            col.setCellValueFactory(new PropertyValueFactory<Player_Equipment_Model, String>("inventoryid"));
             TableData.getColumns().addAll(col);
             col = new TableColumn("Main_Weapon");
-            col.setCellValueFactory(new PropertyValueFactory<Player_Equipment_Model, String>("Main_Weapon"));
+            col.setCellValueFactory(new PropertyValueFactory<Player_Equipment_Model, String>("mainweapon"));
             TableData.getColumns().addAll(col);
             col = new TableColumn("Sub_Weapon");
-            col.setCellValueFactory(new PropertyValueFactory<Player_Equipment_Model, String>("Sub_Weapon"));
+            col.setCellValueFactory(new PropertyValueFactory<Player_Equipment_Model, String>("subweapon"));
             TableData.getColumns().addAll(col);
             col = new TableColumn("Armor");
-            col.setCellValueFactory(new PropertyValueFactory<Player_Equipment_Model, String>("Armor"));
+            col.setCellValueFactory(new PropertyValueFactory<Player_Equipment_Model, String>("armor"));
             TableData.getColumns().addAll(col);
             col = new TableColumn("Glove");
-            col.setCellValueFactory(new PropertyValueFactory<Player_Equipment_Model, String>("Glove"));
+            col.setCellValueFactory(new PropertyValueFactory<Player_Equipment_Model, String>("glove"));
             TableData.getColumns().addAll(col);
             col = new TableColumn("Shoe");
-            col.setCellValueFactory(new PropertyValueFactory<Player_Equipment_Model, String>("Shoe"));
+            col.setCellValueFactory(new PropertyValueFactory<Player_Equipment_Model, String>("shoe"));
             TableData.getColumns().addAll(col);
             TableData.setItems(data);
         } else {

@@ -73,6 +73,10 @@ public class FXML_Input_Player_EquipmentController implements Initializable {
         s.setPlayerequipid(text_PlayerEquipID.getText());
         s.setInventoryid(text_InventoryID.getText());
         s.setMainweapon(text_MainWeapon.getText());
+        s.setSubweapon(text_SubWeapon.getText());
+        s.setArmor(text_Armor.getText());
+        s.setGlove(text_Glove.getText());
+        s.setShoe(text_Shoe.getText());
         FXMLDocumentController.dtplayerequipment.setPlayerEquipmentModel(s);
         if (editdata) {
             if (FXMLDocumentController.dtplayerequipment.update()) {

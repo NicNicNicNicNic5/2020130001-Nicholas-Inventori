@@ -64,6 +64,7 @@ public class FXML_DataInventoryController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
+        showData();
     }    
     
     public void showData() {
@@ -72,16 +73,16 @@ public class FXML_DataInventoryController implements Initializable {
             TableData.getColumns().clear();
             TableData.getItems().clear();
             TableColumn col = new TableColumn("Inventory_ID");
-            col.setCellValueFactory(new PropertyValueFactory<Inventory_Model, String>("Inventory_ID"));
+            col.setCellValueFactory(new PropertyValueFactory<Inventory_Model, String>("inventoryid"));
             TableData.getColumns().addAll(col);
             col = new TableColumn("Equipment_ID");
-            col.setCellValueFactory(new PropertyValueFactory<Inventory_Model, String>("Equipment_ID"));
+            col.setCellValueFactory(new PropertyValueFactory<Inventory_Model, String>("equipmentid"));
             TableData.getColumns().addAll(col);
             col = new TableColumn("Possession");
-            col.setCellValueFactory(new PropertyValueFactory<Inventory_Model, String>("Possession"));
+            col.setCellValueFactory(new PropertyValueFactory<Inventory_Model, String>("possession"));
             TableData.getColumns().addAll(col);
             col = new TableColumn("Place");
-            col.setCellValueFactory(new PropertyValueFactory<Inventory_Model, String>("Place"));
+            col.setCellValueFactory(new PropertyValueFactory<Inventory_Model, String>("place"));
             TableData.getColumns().addAll(col);
             TableData.setItems(data);
         } else {
