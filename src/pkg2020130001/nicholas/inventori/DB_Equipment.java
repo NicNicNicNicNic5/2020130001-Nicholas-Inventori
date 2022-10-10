@@ -65,7 +65,7 @@ public class DB_Equipment {
             ResultSet rs = con.statement.executeQuery("select count(*) as jml from equipment where Equipment_ID = '" + nomor + "'");
             while (rs.next()) {
                 val = rs.getInt("jml");
-            }
+            } 
             con.tutupKoneksi();
         } catch (SQLException e) {
             e.printStackTrace();

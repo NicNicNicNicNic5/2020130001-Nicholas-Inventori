@@ -5,7 +5,7 @@
 package pkg2020130001.nicholas.inventori;
 
 /**
- *
+ * 
  * @author Lenovo
  */
 public class Player_Status_Model {

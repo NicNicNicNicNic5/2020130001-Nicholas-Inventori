@@ -66,7 +66,7 @@ public class FXML_DataEquipmentController implements Initializable {
         // TODO
         showData();
     }    
-    
+     
     public void showData() {
         ObservableList<Equipment_Model> data = FXMLDocumentController.dtequipment.Load();
         if (data != null) {

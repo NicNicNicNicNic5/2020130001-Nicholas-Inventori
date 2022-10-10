@@ -4,7 +4,7 @@
  */
 package pkg2020130001.nicholas.inventori;
 
-/**
+/** 
  *
  * @author Lenovo
  */
