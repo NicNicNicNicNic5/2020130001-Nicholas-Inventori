@@ -20,7 +20,7 @@ import javafx.scene.control.TextField;
  * @author Lenovo
  */
 public class FXML_Input_InventoryController implements Initializable {
-
+int p = 0;
     @FXML
     private Button ButtonBack;
     @FXML

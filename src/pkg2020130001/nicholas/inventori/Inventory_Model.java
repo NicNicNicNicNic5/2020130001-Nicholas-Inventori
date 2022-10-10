@@ -9,7 +9,7 @@ package pkg2020130001.nicholas.inventori;
  * @author Lenovo
  */
 public class Inventory_Model {
-
+int p = 0;
     String inventoryid, equipmentid;
     int possession, place;
 

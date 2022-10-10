@@ -14,7 +14,7 @@ import javafx.collections.ObservableList;
  * @author Lenovo
  */
 public class DB_Inventory {
-
+int p = 0;
     private Inventory_Model dt = new Inventory_Model();
 
     public Inventory_Model getInventory_Model() {

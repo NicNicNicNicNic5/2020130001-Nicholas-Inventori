@@ -14,7 +14,7 @@ import javafx.collections.ObservableList;
  * @author Lenovo
  */
 public class DB_Player_Status {
-
+int p = 0;
     private Player_Status_Model dt = new Player_Status_Model();
 
     public Player_Status_Model getPlayer_Status_Model() {

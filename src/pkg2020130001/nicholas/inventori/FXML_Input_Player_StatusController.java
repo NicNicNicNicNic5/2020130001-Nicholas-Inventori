@@ -20,7 +20,7 @@ import javafx.scene.control.TextField;
  * @author Lenovo
  */
 public class FXML_Input_Player_StatusController implements Initializable {
-
+int p = 0;
     @FXML
     private TextField text_name;
     @FXML

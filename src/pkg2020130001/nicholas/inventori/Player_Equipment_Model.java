@@ -9,7 +9,7 @@ package pkg2020130001.nicholas.inventori;
  * @author Lenovo
  */
 public class Player_Equipment_Model {
-
+int p = 0;
     String playerequipid, inventoryid, mainweapon, subweapon, armor, glove, shoe;
 
     public String getPlayerequipid() {

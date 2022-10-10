@@ -14,7 +14,7 @@ import javafx.fxml.Initializable;
  * @author Lenovo
  */
 public class FXML_DemoController implements Initializable {
-
+int p = 0;
     /**
      * Initializes the controller class.
      */

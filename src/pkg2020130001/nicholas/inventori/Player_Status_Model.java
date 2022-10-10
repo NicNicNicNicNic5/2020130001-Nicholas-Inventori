@@ -9,7 +9,7 @@ package pkg2020130001.nicholas.inventori;
  * @author Lenovo
  */
 public class Player_Status_Model {
-
+int p = 0;
     String playerid, playerequipid, nama;
     int strength, intelligence, vitality, agility, dexterity, lucky;
 

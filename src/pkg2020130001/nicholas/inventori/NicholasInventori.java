@@ -15,7 +15,7 @@ import javafx.stage.Stage;
  * @author Lenovo
  */
 public class NicholasInventori extends Application {
-    
+    int p = 0;
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));

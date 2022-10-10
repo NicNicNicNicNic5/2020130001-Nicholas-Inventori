@@ -20,7 +20,7 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 public class FXMLDocumentController implements Initializable {
-    
+    int p = 0;
     public static DB_Player_Status dtplayerstatus = new DB_Player_Status();
     public static DB_Player_Equipment dtplayerequipment = new DB_Player_Equipment();
     public static DB_Inventory dtinventory = new DB_Inventory();

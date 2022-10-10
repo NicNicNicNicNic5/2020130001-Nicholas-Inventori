@@ -14,7 +14,7 @@ import java.sql.Statement;
  * @author Lenovo
  */
 public class koneksi {
-
+int p = 0;
     public Connection dbKoneksi; //ini apa dbKoneksi
     public Statement statement;
     public PreparedStatement preparedStatement;

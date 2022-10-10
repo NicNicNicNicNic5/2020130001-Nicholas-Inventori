@@ -5,7 +5,7 @@
 package pkg2020130001.nicholas.inventori;
 
 public class Equipment_Model {
-
+int p = 0;
     public String getEquipmentid() {
         return equipmentid;
     }

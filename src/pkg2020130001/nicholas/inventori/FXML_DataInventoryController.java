@@ -30,7 +30,7 @@ import javafx.stage.Stage;
  * @author Lenovo
  */
 public class FXML_DataInventoryController implements Initializable {
-
+int p = 0;
     @FXML
     private Button ButtonAdd;
     @FXML
