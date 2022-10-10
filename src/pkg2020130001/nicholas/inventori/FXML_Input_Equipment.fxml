@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pkg2020130001.nicholas.inventori.FXML_Input_EquipmentController">
+   <children>
+      <Button fx:id="ButtonBack" layoutX="30.0" layoutY="339.0" mnemonicParsing="false" onAction="#BackKlik" prefHeight="25.0" prefWidth="242.0" text="Back" />
+      <Button fx:id="ButtonReset" layoutX="30.0" layoutY="289.0" mnemonicParsing="false" onAction="#ResetKlik" prefHeight="25.0" prefWidth="242.0" text="Reset" />
+      <Button fx:id="ButtonCreate" layoutX="30.0" layoutY="239.0" mnemonicParsing="false" onAction="#CreateKlik" prefHeight="25.0" prefWidth="242.0" text="Create" />
+      <TextField fx:id="text_Dexterity" layoutX="423.0" layoutY="255.0" />
+      <TextField fx:id="text_Agility" layoutX="423.0" layoutY="205.0" />
+      <TextField fx:id="text_Vitality" layoutX="423.0" layoutY="157.0" />
+      <TextField fx:id="text_Strength" layoutX="423.0" layoutY="57.0" />
+      <TextField fx:id="text_Intelligence" layoutX="423.0" layoutY="108.0" />
+      <TextField fx:id="text_InventoryID" layoutX="121.0" layoutY="108.0" />
+      <TextField fx:id="text_EquipmentID" layoutX="121.0" layoutY="57.0" />
+      <Label layoutX="337.0" layoutY="259.0" text="Dexterity" />
+      <Label layoutX="337.0" layoutY="209.0" text="Agility" />
+      <Label layoutX="337.0" layoutY="161.0" text="Vitality" />
+      <Label layoutX="337.0" layoutY="112.0" text="Intelligence" />
+      <Label layoutX="337.0" layoutY="61.0" text="Strength" />
+      <Label layoutX="28.0" layoutY="112.0" text="Inventory ID" />
+      <Label layoutX="28.0" layoutY="61.0" text="Equipment ID" />
+      <Label layoutX="173.0" text="Create Equipment">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="161.0" text="Name" />
+      <TextField fx:id="text_Name" layoutX="121.0" layoutY="157.0" />
+      <Label layoutX="337.0" layoutY="309.0" text="Lucky" />
+      <TextField fx:id="text_Lucky" layoutX="423.0" layoutY="305.0" />
+      <TextField fx:id="text_Enhancement" layoutX="423.0" layoutY="355.0" />
+      <Label layoutX="337.0" layoutY="359.0" text="Enhancement" />
+   </children>
+</AnchorPane>

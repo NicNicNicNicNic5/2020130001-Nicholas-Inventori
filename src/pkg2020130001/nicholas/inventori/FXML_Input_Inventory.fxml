@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pkg2020130001.nicholas.inventori.FXML_Input_InventoryController">
+   <children>
+      <Button fx:id="ButtonBack" layoutX="30.0" layoutY="339.0" mnemonicParsing="false" onAction="#BackKlik" prefHeight="25.0" prefWidth="242.0" text="Back" />
+      <Button fx:id="ButtonReset" layoutX="30.0" layoutY="289.0" mnemonicParsing="false" onAction="#ResetKlik" prefHeight="25.0" prefWidth="242.0" text="Reset" />
+      <Button fx:id="ButtonCreate" layoutX="30.0" layoutY="239.0" mnemonicParsing="false" onAction="#CreateKlik" prefHeight="25.0" prefWidth="242.0" text="Create" />
+      <TextField fx:id="text_Possession" layoutX="425.0" layoutY="91.0" />
+      <TextField fx:id="text_Place" layoutX="425.0" layoutY="142.0" />
+      <TextField fx:id="text_EquipmentID" layoutX="123.0" layoutY="142.0" />
+      <TextField fx:id="text_InventoryID" layoutX="123.0" layoutY="91.0" />
+      <Label layoutX="339.0" layoutY="146.0" text="Place" />
+      <Label layoutX="339.0" layoutY="95.0" text="Possession" />
+      <Label layoutX="30.0" layoutY="146.0" text="Equipment ID" />
+      <Label layoutX="30.0" layoutY="95.0" text="Inventory ID" />
+      <Label layoutX="183.0" layoutY="14.0" text="Create Inventory">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

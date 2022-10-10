@@ -7,27 +7,27 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="384.0" prefWidth="614.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pkg2020130001.nicholas.inventori.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="384.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg2020130001.nicholas.inventori.FXMLDocumentController">
    <children>
-      <Button fx:id="ButtonCharacter" layoutX="68.0" layoutY="219.0" mnemonicParsing="false" onAction="#CharacterKlik" prefHeight="43.0" prefWidth="187.0" text="Character">
+      <Label fx:id="LabelQuit" layoutX="265.0" layoutY="295.0" onMouseClicked="#LabelQuitKlik" text="Quit">
          <font>
-            <Font size="25.0" />
+            <Font name="Centaur" size="50.0" />
          </font>
-      </Button>
-      <Button fx:id="ButtonEquip" layoutX="367.0" layoutY="219.0" mnemonicParsing="false" onAction="#EquipKlik" prefHeight="43.0" prefWidth="187.0" text="Equip">
+      </Label>
+      <Label fx:id="LabelData" layoutX="264.0" layoutY="233.0" onMouseClicked="#LabelDataKlik" text="Data">
          <font>
-            <Font size="25.0" />
+            <Font name="Centaur" size="50.0" />
          </font>
-      </Button>
-      <Button fx:id="ButtonInventory" layoutX="68.0" layoutY="300.0" mnemonicParsing="false" onAction="#InventoryKlik" prefHeight="43.0" prefWidth="187.0" text="Inventory">
+      </Label>
+      <Label fx:id="LabelDemo" layoutX="251.0" layoutY="170.0" onMouseClicked="#LabelDemoKlik" text="Demo">
          <font>
-            <Font size="25.0" />
+            <Font name="Centaur" size="50.0" />
          </font>
-      </Button>
-      <Button fx:id="ButtonQuit" layoutX="367.0" layoutY="300.0" mnemonicParsing="false" onAction="#QuitKlik" prefHeight="43.0" prefWidth="187.0" text="Quit">
+      </Label>
+      <Label layoutX="38.0" layoutY="27.0" text="Inventory RPG">
          <font>
-            <Font size="25.0" />
+            <Font name="Centaur" size="96.0" />
          </font>
-      </Button>
+      </Label>
    </children>
 </AnchorPane>

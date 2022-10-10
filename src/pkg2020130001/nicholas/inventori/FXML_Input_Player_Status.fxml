@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pkg2020130001.nicholas.inventori.FXML_Input_Player_StatusController">
+   <children>
+      <TextField fx:id="text_player_id" layoutX="128.0" layoutY="68.0" />
+      <Label layoutX="26.0" layoutY="72.0" text="Player ID" />
+      <Label layoutX="26.0" layoutY="122.0" text="Player Equip ID" />
+      <Label layoutX="26.0" layoutY="172.0" text="Name" />
+      <Label layoutX="374.0" layoutY="72.0" text="Strength" />
+      <Label layoutX="374.0" layoutY="122.0" text="Intelligence" />
+      <Label layoutX="371.0" layoutY="172.0" text="Vitality" />
+      <Label layoutX="371.0" layoutY="222.0" text="Agility" />
+      <Label layoutX="372.0" layoutY="272.0" text="Dexterity" />
+      <Label layoutX="371.0" layoutY="322.0" text="Lucky" />
+      <TextField fx:id="text_name" layoutX="128.0" layoutY="168.0" />
+      <TextField fx:id="text_player_equip_id" layoutX="128.0" layoutY="118.0" />
+      <TextField fx:id="text_lucky" layoutX="458.0" layoutY="318.0" prefHeight="25.0" prefWidth="81.0" />
+      <TextField fx:id="text_dexterity" layoutX="458.0" layoutY="268.0" prefHeight="25.0" prefWidth="81.0" />
+      <TextField fx:id="text_agility" layoutX="458.0" layoutY="218.0" prefHeight="25.0" prefWidth="81.0" />
+      <TextField fx:id="text_intelligence" layoutX="458.0" layoutY="118.0" prefHeight="25.0" prefWidth="81.0" />
+      <TextField fx:id="text_vitality" layoutX="458.0" layoutY="168.0" prefHeight="25.0" prefWidth="81.0" />
+      <TextField fx:id="text_strength" layoutX="458.0" layoutY="68.0" prefHeight="25.0" prefWidth="81.0" />
+      <Label layoutX="190.0" layoutY="14.0" text="Create Character">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_create" layoutX="26.0" layoutY="231.0" mnemonicParsing="false" onAction="#button_create_klik" prefHeight="25.0" prefWidth="251.0" text="CREATE" />
+      <Button fx:id="button_reset" layoutX="26.0" layoutY="281.0" mnemonicParsing="false" onAction="#button_reset_klik" prefHeight="25.0" prefWidth="251.0" text="RESET" />
+      <Button fx:id="button_back" layoutX="26.0" layoutY="331.0" mnemonicParsing="false" onAction="#button_back_klik" prefHeight="25.0" prefWidth="251.0" text="BACK" />
+   </children>
+</AnchorPane>

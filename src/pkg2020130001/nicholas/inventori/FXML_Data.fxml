@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pkg2020130001.nicholas.inventori.FXML_DataController">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Player_Status">
+            <items>
+              <MenuItem fx:id="MenuPlayerStatus" mnemonicParsing="false" onAction="#PlayerStatusKlik" text="Show Player Status" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Player_Equipment">
+            <items>
+              <MenuItem fx:id="MenuPlayerEquipment" mnemonicParsing="false" onAction="#PlayerEquipmentKlik" text="Show Player's Equipment" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Inventory">
+            <items>
+              <MenuItem fx:id="MenuInventory" mnemonicParsing="false" onAction="#InventoryKlik" text="Show Inventory" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Equipment">
+              <items>
+                <MenuItem fx:id="MenuEquipment" mnemonicParsing="false" onAction="#EquipmentKlik" text="Show Equipment" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Back">
+              <items>
+                <MenuItem fx:id="MenuBack" mnemonicParsing="false" onAction="#BackKlik" text="Back to menu" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <TableView fx:id="TableData" layoutY="27.0" prefHeight="275.0" prefWidth="600.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button fx:id="ButtonFirst" layoutX="6.0" layoutY="309.0" mnemonicParsing="false" onAction="#FirstKlik" prefHeight="38.0" prefWidth="82.0" text="First" />
+      <Button fx:id="ButtonBefore" layoutX="6.0" layoutY="355.0" mnemonicParsing="false" onAction="#BeforeKlik" prefHeight="38.0" prefWidth="82.0" text="Before" />
+      <Button fx:id="ButtonAfter" layoutX="510.0" layoutY="355.0" mnemonicParsing="false" onAction="#AfterKlik" prefHeight="38.0" prefWidth="82.0" text="After" />
+      <Button fx:id="ButtonLast" layoutX="510.0" layoutY="309.0" mnemonicParsing="false" onAction="#LastKlik" prefHeight="38.0" prefWidth="82.0" text="Last" />
+      <Button fx:id="ButtonErase" layoutX="385.0" layoutY="309.0" mnemonicParsing="false" onAction="#EraseKlik" prefHeight="83.0" prefWidth="82.0" text="Erase" />
+      <Button fx:id="ButtonEdit" layoutX="259.0" layoutY="309.0" mnemonicParsing="false" onAction="#EditKlik" prefHeight="83.0" prefWidth="82.0" text="Edit" />
+      <Button fx:id="ButtonAdd" layoutX="131.0" layoutY="309.0" mnemonicParsing="false" onAction="#AddKlik" prefHeight="83.0" prefWidth="82.0" text="Add" />
+   </children>
+</AnchorPane>
