@@ -57,7 +57,7 @@ public class DB_Equipment {
     }
     
     public int validasi(String nomor) {
-        int val = 0;
+        int val = 1;
         try {
             koneksi con = new koneksi();
             con.bukaKoneksi();
@@ -65,7 +65,7 @@ public class DB_Equipment {
             ResultSet rs = con.statement.executeQuery("select count(*) as jml from equipment where Equipment_ID = '" + nomor + "'");
             while (rs.next()) {
                 val = rs.getInt("jml");
-            } 
+            }  
             con.tutupKoneksi();
         } catch (SQLException e) {
             e.printStackTrace();
