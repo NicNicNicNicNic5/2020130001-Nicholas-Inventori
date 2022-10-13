@@ -25,6 +25,8 @@ public class DB_Equipment {
         dt = s;
     }
     
+    int a = 0;
+    
     public ObservableList<Equipment_Model> Load() {
         try {
             ObservableList<Equipment_Model> tableData = FXCollections.observableArrayList();
